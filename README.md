@@ -15,9 +15,9 @@ Toggle Dark Mode (ubah tema aplikasi, disimpan di storage).
 Logout (konfirmasi dialog, hapus current user dari storage, kembali ke Login).  
 
 
-#Penjelasan
+# Penjelasan
 
-pada file main.dart :  
+### pada file main.dart :  
 Mengimpor paket Flutter dan halaman LoginPage untuk navigasi awal.
 ValueNotifier<bool> isDarkMode: Variabel global yang mengelola toggle dark mode secara real-time.
 main(): Fungsi utama yang menjalankan aplikasi Flutter.
